@@ -1,0 +1,289 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f5f5f5;
+}
+
+/* Header */
+header {
+    background: #ff6f61;
+    color: #fff;
+    padding: 1rem 0;
+    position: relative;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://www.transparenttextures.com/patterns/paper-1.png') repeat;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.2;
+    margin-bottom: 2rem; /* Added margin for spacing */
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #ff6f61, #ff8c00);
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 2rem; /* Added margin-top to create space below the header */
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.3;
+}
+
+.hero p {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.cta-button {
+    background: #ff8c00;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+    background: #ff6f61;
+    transform: scale(1.1);
+}
+
+/* Features Section */
+.features {
+    padding: 3rem 0;
+    background: #fff;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+.feature-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-row {
+    background: #fffbf2;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.feature-row:hover {
+    transform: scale(1.05);
+}
+
+.feature-icon {
+    font-size: 2rem;
+    color: #ff6f61;
+    margin-right: 1rem;
+}
+
+.feature-text {
+    max-width: 600px;
+}
+
+.feature-row h3 {
+    margin-bottom: 0.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 3rem 0;
+    background: #f9f9f9;
+}
+
+.testimonial-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-row {
+    background: #fff;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    transition: transform 0.3s;
+}
+
+.testimonial-row:hover {
+    transform: scale(1.05);
+}
+
+.testimonial-text {
+    max-width: 600px;
+}
+
+.testimonial-text p {
+    font-style: italic;
+}
+
+.testimonial-text h4 {
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact {
+    padding: 3rem 0;
+    background: #fff;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #ff6f61;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+form button:hover {
+    background: #ff8c00;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background: #ff6f61;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+}
+/* Scroll-to-Top Button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 50px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-to-top:hover {
+    background: #ff8c00;
+}
+
+/* Animation on Scroll */
+.animate-on-scroll {
+    opacity: 0;
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Example of animation */
+.animate-on-scroll {
+    transform: translateY(20px);
+}
+/* Ice Cream Cart */
+.ice-cream-cart {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}

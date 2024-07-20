@@ -1,0 +1,182 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
+}
+
+/* About Section */
+#about {
+    background: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #ff7e5f;
+}
+
+#about img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 1em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about p {
+    font-size: 1.1em;
+    margin: 0.5em 0;
+}
+
+/* Skills Section */
+#skills {
+    background: linear-gradient(90deg, #43cea2, #185a9d);
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#skills h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background: #fff;
+    color: #333;
+    margin: 0.5em 0;
+    padding: 0.7em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Section */
+#projects {
+    background: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#projects h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #43cea2;
+}
+
+.project {
+    background: #f4f4f4;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin: 0;
+    color: #185a9d;
+}
+
+/* Resume Section */
+#resume {
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#resume h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+#resume a {
+    color: #fff;
+    text-decoration: none;
+    background: #333;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resume a:hover {
+    background: #555;
+}
+
+/* Contact Section */
+#contact {
+    background: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #ff6a00;
+}
+
+#contact p {
+    font-size: 1.1em;
+    margin: 0.5em 0;
+}
+
+#contact a {
+    color: #ff6a00;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+
